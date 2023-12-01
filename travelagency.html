@@ -1,0 +1,605 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  </head>
+  <style>
+    img:hover {
+      --bs-link-color-rgb: var(--bs-link-hover-color-rgb);
+    }
+  </style>
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+        
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="pictures/travel agency logo.png" alt="" height="40cm" width="150cm">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Home
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Home Verison 1</a></li>
+                    <li><a class="dropdown-item" href="#">Home Verison 2</a></li>
+                    <li><a class="dropdown-item" href="#">Home Verison 3</a></li>
+                    <li><a class="dropdown-item" href="#">Home Verison 4</a></li>
+                    <li><a class="dropdown-item" href="#">Home Verison 5</a></li>
+                    <li><a class="dropdown-item" href="#">Home Verison 6</a></li>
+                  </ul>
+                </ul>
+              </li>
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Listing
+                  </a>
+                  <ul class="dropdown-menu">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Hotel
+                          </a>
+                          <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Hotel List 2</a></li>
+                      <li><a class="dropdown-item" href="#">Hotel List 3</a></li>
+                      <li><a class="dropdown-item" href="#">Hoiel Detail 1</a></li>
+                      <li><a class="dropdown-item" href="#">Hoiel Detail 2</a></li>
+                    </li>
+                            </ul>
+                            </li>
+                            </ul>
+                      <li><a class="dropdown-item" href="#">flight</a></li>
+                      <li><a class="dropdown-item" href="#">Rental</a></li>
+                      <li><a class="dropdown-item" href="#">Car</a></li>
+                      <li><a class="dropdown-item" href="#">Destination</a></li>
+                      <li><a class="dropdown-item" href="#"> Join With GeoTrip </a></li>
+                      <li><a class="dropdown-item" href="#">Add Listing</a></li>
+                      <li><a class="dropdown-item" href="#">Comapre Listing</a></li>
+                      <li><a class="dropdown-item" href="#">Booking page</a></li>
+                      <li><a class="dropdown-item" href="#"> User Dashboard</a></li></ul>
+                  </ul>
+                </li>
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Home
+                      </a>
+                      <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Home Verison 1</a></li>
+                          <li><a class="dropdown-item" href="#">Home Verison 2</a></li>
+                          <li><a class="dropdown-item" href="#">Home Verison 3</a></li>
+                          <li><a class="dropdown-item" href="#">Home Verison 4</a></li>
+                          <li><a class="dropdown-item" href="#">Home Verison 5</a></li>
+                          <li><a class="dropdown-item" href="#">Home Verison 6</a></li>
+                        </ul>
+                      </ul>
+                    </li>
+                  </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="pictures/snow-mountain-winter-scene-h6gcwn28lw7bbw2u.jpg" class="d-block w-100" alt="..." height="600px">
+            <div class="carousel-caption d-none d-md-block">            
+              <div class="row justify-content-center align-items-center">
+                <div class="col-xl-9 col-lg-10 col-md-12 col-sm-12">
+                  <div class="position-relative text-center mb-5">
+                    <h1 style="color: rgb(255, 255, 255);">Starts Your Trip with <span class="position-relative z-4">GeoTrip<span class="position-absolute top-50 start-50 translate-middle d-none d-md-block mt-4">
+                          <svg width="185px" height="23px" viewBox="0 0 445.5 23">
+                            <path class="fill-white opacity-7" d="M409.9,2.6c-9.7-0.6-19.5-1-29.2-1.5c-3.2-0.2-6.4-0.2-9.7-0.3c-7-0.2-14-0.4-20.9-0.5 c-3.9-0.1-7.8-0.2-11.7-0.3c-1.1,0-2.3,0-3.4,0c-2.5,0-5.1,0-7.6,0c-11.5,0-23,0-34.5,0c-2.7,0-5.5,0.1-8.2,0.1 c-6.8,0.1-13.6,0.2-20.3,0.3c-7.7,0.1-15.3,0.1-23,0.3c-12.4,0.3-24.8,0.6-37.1,0.9c-7.2,0.2-14.3,0.3-21.5,0.6 c-12.3,0.5-24.7,1-37,1.5c-6.7,0.3-13.5,0.5-20.2,0.9C112.7,5.3,99.9,6,87.1,6.7C80.3,7.1,73.5,7.4,66.7,8 C54,9.1,41.3,10.1,28.5,11.2c-2.7,0.2-5.5,0.5-8.2,0.7c-5.5,0.5-11,1.2-16.4,1.8c-0.3,0-0.7,0.1-1,0.1c-0.7,0.2-1.2,0.5-1.7,1 C0.4,15.6,0,16.6,0,17.6c0,1,0.4,2,1.1,2.7c0.7,0.7,1.8,1.2,2.7,1.1c6.6-0.7,13.2-1.5,19.8-2.1c6.1-0.5,12.3-1,18.4-1.6 c6.7-0.6,13.4-1.1,20.1-1.7c2.7-0.2,5.4-0.5,8.1-0.7c10.4-0.6,20.9-1.1,31.3-1.7c6.5-0.4,13-0.7,19.5-1.1c2.7-0.1,5.4-0.3,8.1-0.4 c10.3-0.4,20.7-0.8,31-1.2c6.3-0.2,12.5-0.5,18.8-0.7c2.1-0.1,4.2-0.2,6.3-0.2c11.2-0.3,22.3-0.5,33.5-0.8 c6.2-0.1,12.5-0.3,18.7-0.4c2.2-0.1,4.4-0.1,6.7-0.1c11.5-0.1,23-0.2,34.6-0.4c7.2-0.1,14.4-0.1,21.6-0.1c12.2,0,24.5,0.1,36.7,0.1 c2.4,0,4.8,0.1,7.2,0.2c6.8,0.2,13.5,0.4,20.3,0.6c5.1,0.2,10.1,0.3,15.2,0.4c3.6,0.1,7.2,0.4,10.8,0.6c10.6,0.6,21.1,1.2,31.7,1.8 c2.7,0.2,5.4,0.4,8,0.6c2.9,0.2,5.8,0.4,8.6,0.7c0.4,0.1,0.9,0.2,1.3,0.3c1.1,0.2,2.2,0.2,3.2-0.4c0.9-0.5,1.6-1.5,1.9-2.5 c0.6-2.2-0.7-4.5-2.9-5.2c-1.9-0.5-3.9-0.7-5.9-0.9c-1.4-0.1-2.7-0.3-4.1-0.4c-2.6-0.3-5.2-0.4-7.9-0.6 C419.7,3.1,414.8,2.9,409.9,2.6z">
+                            </path>
+                          </svg>
+                        </span></span></h1>
+                    <p class="fs-5 fw-light">Take a little break from the work strss of everyday. Discover plan trip and
+                      explore beautiful destinations.</p>
+                  </div>
+                </div>
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                  <div class="search-wrap bg-white rounded-3 p-3">
+                    <div class="search-upper">
+                      <div class="d-flex align-items-center justify-content-between flex-wrap">
+                        <div class="flx-start mb-sm-0 mb-2" style="color: black;">
+                          <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="trip" id="return" value="option1" checked="">
+                            <label class="form-check-label" for="return">Return</label>
+                          </div>
+                          <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="trip" id="oneway" value="option2">
+                            <label class="form-check-label" for="oneway">One Way</label>
+                          </div>
+                        </div>
+                        <div class="flx-end d-flex align-items-center flex-wrap">
+                          <div class="px-sm-2 pb-3 pt-0 ps-0 mob-full">
+                            <div class="booking-form__input guests-input">
+                              <i class="fa-solid fa-user-clock text-muted me-2"></i><button name="guests-btn" id="guests-input-btn">1 Adults</button>
+                            </div>
+                          </div>
+                          <div class="ps-1 pb-3 pt-0 mob-full">
+                            <div class="dropdowns">
+                              <div class="selections">
+                                <i class="fa-solid fa-basket-shopping text-muted me-2"></i><span class="selected">Economy</span>
+                                <div class="caret"></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row gx-lg-2 g-3">
+      
+                      <div class="col-xl-6 col-lg-6 col-md-12">
+                        <div class="row gy-3 gx-lg-2 gx-3">
+                          <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 position-relative">
+                            <div class="form-group hdd-arrow mb-0">
+                              <select class="leaving form-control fw-bold select2-hidden-accessible" data-select2-id="select2-data-1-zpk5" tabindex="-1" aria-hidden="true">
+                                <option value="" data-select2-id="select2-data-3-94ll">Select</option>
+                                <option value="ny">New York</option>
+                                <option value="sd">San Diego</option>
+                                <option value="sj">San Jose</option>
+                                <option value="ph">Philadelphia</option>
+                                <option value="nl">Nashville</option>
+                                <option value="sf">San Francisco</option>
+                                <option value="hu">Houston</option>
+                                <option value="sa">San Antonio</option>
+                              </select><span class="select2 select2-container select2-container--default" dir="ltr" data-select2-id="select2-data-2-ubdy" style="width: 265.01px;"><span class="selection"><span class="select2-selection select2-selection--single" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-disabled="false" aria-labelledby="select2-xky6-container" aria-controls="select2-xky6-container"><span class="select2-selection__rendered" id="select2-xky6-container" role="textbox" aria-readonly="true" title="Leaving From"><span class="select2-selection__placeholder">Leaving From</span></span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
+                            </div>
+                            <div class="btn-flip-icon mt-md-0">
+                              <button class="p-0 m-0 text-primary"><i class="fa-solid fa-right-left"></i></button>
+                            </div>
+                          </div>
+                          <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+                            <div class="form-groupp hdd-arrow mb-0">
+                              <select class="goingto form-control fw-bold select2-hidden-accessible" data-select2-id="select2-data-4-2a64" tabindex="-1" aria-hidden="true">
+                                <option value="" data-select2-id="select2-data-6-hwsi">Select</option>
+                                <option value="lv">Las Vegas</option>
+                                <option value="la">Los Angeles</option>
+                                <option value="kc">Kansas City</option>
+                                <option value="no">New Orleans</option>
+                                <option value="kc">Jacksonville</option>
+                                <option value="lb">Long Beach</option>
+                                <option value="cl">Columbus</option>
+                                <option value="cn">Canada</option>
+                              </select><span class="select2 select2-container select2-container--default" dir="ltr" data-select2-id="select2-data-5-sde6" style="width: 265.01px;"><span class="selection"><span class="select2-selection select2-selection--single" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-disabled="false" aria-labelledby="select2-pwv1-container" aria-controls="select2-pwv1-container"><span class="select2-selection__rendered" id="select2-pwv1-container" role="textbox" aria-readonly="true" title="Going To"><span class="select2-selection__placeholder">Going To</span></span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-xl-4 col-lg-4 col-md-12">
+                        <div class="row gy-3 gx-lg-2 gx-3">
+                          <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+                            <div class="form-group mb-0">
+                              <input class="form-control fw-bold choosedate flatpickr-input" type="text" placeholder="Departure.." readonly="readonly">
+                            </div>
+                          </div>
+                          <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+                            <div class="form-group mb-0">
+                              <input class="form-control fw-bold choosedate flatpickr-input" type="text" placeholder="Return.." readonly="readonly">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-xl-2 col-lg-2 col-md-12">
+                        <div class="form-group mb-0">
+                          <button type="button" class="btn btn-primary full-width fw-medium"><i class="fa-solid fa-magnifying-glass me-2"></i>Search</button>
+                        </div>
+                      </div>
+      
+                    </div>
+                  </div>
+                </div>
+              </div>  
+          </div>
+        </div>
+      </div>
+
+      <div class="container text-center">
+        <div class="row align-items-start">
+          <div class="col">
+            <img src="pictures/Easy Booking.jpeg" alt="" height="100cm" style="margin-top: 2cm;" >
+            <h4 style="text-align: left;  color: rgb(0, 0, 59);">Easy Booking</h4>
+            <p style="text-align: left;">Cicero famously orated against his political opponent Lucius Sergius 
+              Catilina. Occasionally the first Oration against Catiline.</p>
+          </div>
+          <div class="col">
+            <img src="pictures/Best Destination.png" alt="" height="100cm" style="margin-top: 2cm;">
+            <h4 class="cl-6" style="text-align: left; color: rgb(0, 0, 59);">Destinations</h4>
+            <p style="text-align: left;">Cicero famously orated against his political opponent Lucius Sergius 
+              Catilina. Occasionally the first Oration against Catiline.</p>
+          </div>
+          <div class="col">
+            <img src="pictures/Travel Guides.png" alt="" height="100cm" style="margin-top: 2cm; align-: left;">
+            <h4 class="cl-6" style="text-align: left; color: rgb(0, 0, 59);">Travel Guides </h4>
+            <p style="text-align: left;">Cicero famously orated against his political opponent Lucius Sergius 
+              Catilina. Occasionally the first Oration against Catiline.</p>
+          </div>
+          <div class="col">
+            <img src="pictures/Friendly Support.png" alt="" height="100cm" style="margin-top: 2cm;">
+            <h4 class="cl-6" style="text-align: left; color: rgb(0, 0, 59);">Support </h4>
+            <p style="text-align: left;">Cicero famously orated against his political opponent Lucius Sergius 
+              Catilina. Occasionally the first Oration against Catiline.</p>
+          </div>
+        </div>
+      </div><br> <hr>
+      
+
+      <h2 style="margin-top: 2cm; color: rgb(0, 0, 59); text-align: center;">Explore Popular Destination</h2>
+      <p style="text-align: center;">Cicero famously orated against his political opponent Lucius Sergius Catilina.</p>
+       
+      <div class="container text-center" >
+        <div class="row align-items-start">
+          <div class="col" style="padding-top: 10px; padding-bottom: 7px; border: 2px dotted rgb(223, 218, 218); border-radius: 3px; padding-left: 2px; padding-right: 2px; margin-right: 10px;" >
+            <img src="pictures/New York.png" alt="" height="250cm" style="border-radius: 20px;" >
+            <h3 style="color: rgb(0, 0, 59); text-align: center;">New York</h3>
+            <p>10 Destinations | 5 Hotels</p>
+          </div>
+          <div class="col" style="padding-top: 10px; padding-bottom: 7px; border: 2px dotted rgb(223, 218, 218); border-radius: 3px; padding-left: 2px; padding-right: 2px; margin-right: 10px;">
+            <img src="pictures/Las Vegas.png" alt="" height="250cm" style="border-radius: 20px;">
+            <h3 style="color: rgb(0, 0, 59); text-align: center;">Las Vegas</h3>
+            <p>10 Destinations | 5 Hotels</p>
+          </div>
+          <div class="col" style="padding-top: 10px; padding-bottom: 7px; border: 2px dotted rgb(223, 218, 218); border-radius: 3px; padding-left: 2px; padding-right: 2px; margin-right: 10px;">
+            <img src="pictures/San Antonio.png" alt="" height="250cm" style="border-radius: 20px;">
+            <h3 style="color: rgb(0, 0, 59); text-align: center;">San Antonio</h3>
+            <p>10 Destinations | 5 Hotels</p>
+          </div>
+          <div class="col" style="padding-top: 10px; padding-bottom: 7px; border: 2px dotted rgb(223, 218, 218); border-radius: 3px; padding-left: 2px; padding-right: 2px; margin-right: 10px;">
+            <img src="pictures/Houston.png" alt="" height="250cm" style="border-radius: 20px;">
+            <h3 style="color: rgb(0, 0, 59); text-align: center;">Houston</h3>
+            <p>10 Destinations | 5 Hotels</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container text-center">
+        <div class="row align-items-start">
+          <div class="col" style="padding-top: 10px; margin-top: 10px; padding-bottom: 7px; border: 2px dotted rgb(223, 218, 218); border-radius: 3px; padding-left: 2px; padding-right: 2px; margin-right: 10px;" >
+            <img src="pictures/San Francisco.png" alt="" height="250cm" style="border-radius: 20px;">
+            <h3 style="color: rgb(0, 0, 59); text-align: center;">San Francisco</h3>
+            <p>10 Destinations | 5 Hotels</p>
+          </div>
+          <div class="col" style="padding-top: 10px; margin-top: 10px; padding-bottom: 7px; border: 2px dotted rgb(223, 218, 218); border-radius: 3px; padding-left: 2px; padding-right: 2px; margin-right: 10px;">
+            <img src="pictures/Nashville.png" alt="" height="250cm" style="border-radius: 20px;">
+            <h3 style="color: rgb(0, 0, 59); text-align: center;">Nashville</h3>
+            <p>10 Destinations | 5 Hotels</p>
+          </div>
+          <div class="col" style="padding-top: 10px; margin-top: 10px; padding-bottom: 7px; border: 2px dotted rgb(223, 218, 218); border-radius: 3px; padding-left: 2px; padding-right: 2px; margin-right: 10px;">
+            <img src="pictures/Philadelphia.png" alt="" height="250cm" style="border-radius: 20px;">
+            <h3 style="color: rgb(0, 0, 59); text-align: center;">Philadelphia</h3>
+            <p>10 Destinations | 5 Hotels</p>
+          </div>
+          <div class="col" style="padding-top: 10px; margin-top: 10px; padding-bottom: 7px; border: 2px dotted rgb(223, 218, 218); border-radius: 3px; padding-left: 2px; padding-right: 2px; margin-right: 10px;">
+            <img src="pictures/San Diego.png" alt="" height="250cm" style="border-radius: 20px;">
+            <h3 style="color: rgb(0, 0, 59); text-align: center;">San Diego</h3>
+            <p>10 Destinations | 5 Hotels</p>
+          </div>
+        </div>
+      </div>
+
+       <div style="background-color: rgb(238, 238, 238);">
+      <h1 style="margin-top: 2cm; color: rgb(0, 0, 59); text-align: center; ">Explore Popular Routes</h1>
+      <p style="text-align: center;">Cicero famously orated against his political opponent Lucius Sergius Catilina.</p>
+      <div class="container text-center">
+        <div class="row align-items-start">
+          <div class="col">
+            <img src="pictures/New York to Los Angeles.jpg" alt="" height="150cm" width="258cm" style="border-top-left-radius: 8px; border-top-right-radius: 8px;">
+            <h5 style="background-color: white; color: rgb(0, 0, 59); text-align: center; margin: 1px 1px 0px 1px;"> New York <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M17.4 7H4C3.4 7 3 7.4 3 8C3 8.6 3.4 9 4 9H17.4V7ZM6.60001 15H20C20.6 15 21 15.4 21 16C21 16.6 20.6 17 20 17H6.60001V15Z" fill="currentColor"></path>
+              <path opacity="0.3" d="M17.4 3V13L21.7 8.70001C22.1 8.30001 22.1 7.69999 21.7 7.29999L17.4 3ZM6.6 11V21L2.3 16.7C1.9 16.3 1.9 15.7 2.3 15.3L6.6 11Z" fill="currentColor"></path>
+            </svg> Los Angeles </h5>
+            <p style="text-align: center; background-color: white; margin-top: 0; color: grey; margin-bottom: 0; padding-top: 2px;"> Round-trip | 3 Days</p>
+          <h6 style="color: rgb(0, 0, 59); background-color: white; margin-top: 0; text-align: center; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; padding-right:8px; 
+          padding-top: 3px; padding-bottom: 10px; text-align: center; border-bottom-left-radius: 8px; border-bottom-right-radius: 8px;"><strong> from US$492</strong></h6>
+
+          </div>
+          <div class="col">
+            <img src="pictures/San Diego to San Jose.jpg" alt="" height="150cm" width="258cm" style="border-top-left-radius: 8px; border-top-right-radius: 8px;">
+            <h5 style="background-color: white; color: rgb(0, 0, 59); text-align: center; margin: 1px 1px 0px 1px; ">  San Diego <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M17.4 7H4C3.4 7 3 7.4 3 8C3 8.6 3.4 9 4 9H17.4V7ZM6.60001 15H20C20.6 15 21 15.4 21 16C21 16.6 20.6 17 20 17H6.60001V15Z" fill="currentColor"></path>
+              <path opacity="0.3" d="M17.4 3V13L21.7 8.70001C22.1 8.30001 22.1 7.69999 21.7 7.29999L17.4 3ZM6.6 11V21L2.3 16.7C1.9 16.3 1.9 15.7 2.3 15.3L6.6 11Z" fill="currentColor"></path>
+            </svg> San Jose </h5>
+            <p style="text-align: center; background-color: white; margin-top: 0; color: grey; margin-bottom: 0; padding-top: 2px;"> Round-trip | 3 Days</p>
+            <h6 style="color: rgb(0, 0, 59); background-color: white; margin-top: 0; text-align: center; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; padding-right:8px; 
+            padding-top: 3px; padding-bottom: 10px; text-align: center; border-bottom-left-radius: 8px; border-bottom-right-radius: 8px;" ><strong> from US$492</strong></h6>
+
+          </div>
+          <div class="col">
+            <img src="pictures/Dallas to Philadelphia.jpg" alt="" height="150cm" width="258cm" style="border-top-left-radius: 8px; border-top-right-radius: 8px;">
+            <h5 style="background-color: white; color: rgb(0, 0, 59); text-align: center; margin: 1px 1px 0px 1px; margin-bottom: 0;"> Dallas <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M17.4 7H4C3.4 7 3 7.4 3 8C3 8.6 3.4 9 4 9H17.4V7ZM6.60001 15H20C20.6 15 21 15.4 21 16C21 16.6 20.6 17 20 17H6.60001V15Z" fill="currentColor"></path>
+              <path opacity="0.3" d="M17.4 3V13L21.7 8.70001C22.1 8.30001 22.1 7.69999 21.7 7.29999L17.4 3ZM6.6 11V21L2.3 16.7C1.9 16.3 1.9 15.7 2.3 15.3L6.6 11Z" fill="currentColor"></path>
+            </svg> Philadelphia </h5>
+            <p style="text-align: center; background-color: white; margin-top: 0; color: grey; margin-bottom: 0;"> Round-trip | 3 Days</p>
+            <h6 style="color: rgb(0, 0, 59); background-color: white; margin-top: 0; text-align: center; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; padding-right:8px; 
+            padding-top: 3px; padding-bottom: 10px; text-align: center; border-bottom-left-radius: 8px; border-bottom-right-radius: 8px;"><strong> from US$492</strong></h6>
+
+          </div>
+          <div class="col">
+            <img src="pictures/Denver to Nashville.jpg" alt="" height="147cm" width="258cm" style="border-top-left-radius: 8px; border-top-right-radius: 8px;">
+            <h4 style="background-color: white; color: rgb(0, 0, 59); text-align: center; margin: 1px 1px 0px 1px; margin-bottom: 0;"> Denver <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M17.4 7H4C3.4 7 3 7.4 3 8C3 8.6 3.4 9 4 9H17.4V7ZM6.60001 15H20C20.6 15 21 15.4 21 16C21 16.6 20.6 17 20 17H6.60001V15Z" fill="currentColor"></path>
+              <path opacity="0.3" d="M17.4 3V13L21.7 8.70001C22.1 8.30001 22.1 7.69999 21.7 7.29999L17.4 3ZM6.6 11V21L2.3 16.7C1.9 16.3 1.9 15.7 2.3 15.3L6.6 11Z" fill="currentColor"></path>
+            </svg> Nashville </h4>
+            <p style="text-align: center; background-color: white; margin-top: 0; color: grey; margin-bottom: 0;"> Round-trip | 3 Days</p>
+            <h6 style="color: rgb(0, 0, 59); background-color: white; margin-top: 0; text-align: center; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; padding-right:8px; padding-top: 3px; 
+            padding-bottom: 10px; text-align: center; border-bottom-left-radius: 8px; border-bottom-right-radius: 8px;"><strong> from US$492</strong></h6>
+          </div>
+          <div class="col">
+            <img src="pictures/Chicage to San Franciscpo.jpg" alt="" height="150cm" width="258cm" style="border-top-left-radius: 8px; border-top-right-radius: 8px; margin-top: 8px;">
+            <h5 style="background-color: white; color: rgb(0, 0, 59); text-align: center; margin: 1px 1px 0px 1px;"> Chicage <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M17.4 7H4C3.4 7 3 7.4 3 8C3 8.6 3.4 9 4 9H17.4V7ZM6.60001 15H20C20.6 15 21 15.4 21 16C21 16.6 20.6 17 20 17H6.60001V15Z" fill="currentColor"></path>
+              <path opacity="0.3" d="M17.4 3V13L21.7 8.70001C22.1 8.30001 22.1 7.69999 21.7 7.29999L17.4 3ZM6.6 11V21L2.3 16.7C1.9 16.3 1.9 15.7 2.3 15.3L6.6 11Z" fill="currentColor"></path>
+            </svg> San Franciscpo</h5>
+            <p style="text-align: center; background-color: white; margin-top: 0; color: grey; margin-bottom: 0;"> Round-trip | 3 Days</p>
+            <h6 style="color: rgb(0, 0, 59); background-color: white; margin-top: 0; text-align: center; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; padding-right:8px; 
+            padding-top: 3px; padding-bottom: 10px; text-align: center; border-bottom-left-radius: 8px; border-bottom-right-radius: 8px;"><strong> from US$492</strong></h6>
+
+          </div>
+          <div class="col">
+            <img src="pictures/Houston to Los Angeles.jpg" alt="" height="150cm" width="258cm" style="border-top-left-radius: 8px; border-top-right-radius: 8px; margin-top: 8px;">
+            <h5 style="background-color: white; color: rgb(0, 0, 59); text-align: center; margin: 1px 1px 0px 1px; "> Houston <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M17.4 7H4C3.4 7 3 7.4 3 8C3 8.6 3.4 9 4 9H17.4V7ZM6.60001 15H20C20.6 15 21 15.4 21 16C21 16.6 20.6 17 20 17H6.60001V15Z" fill="currentColor"></path>
+              <path opacity="0.3" d="M17.4 3V13L21.7 8.70001C22.1 8.30001 22.1 7.69999 21.7 7.29999L17.4 3ZM6.6 11V21L2.3 16.7C1.9 16.3 1.9 15.7 2.3 15.3L6.6 11Z" fill="currentColor"></path>
+            </svg> Los Angeles </h5>
+            <p style="text-align: center; background-color: white; margin-top: 0; color: grey; margin-bottom: 0;"> Round-trip | 3 Days</p>
+            <h6 style="color: rgb(0, 0, 59); background-color: white; margin-top: 0; text-align: center; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; padding-right:8px; 
+            padding-top: 3px; padding-bottom: 10px; text-align: center; border-bottom-left-radius: 8px; border-bottom-right-radius: 8px;" > <strong> from US$492</strong></h6>
+
+          </div>
+          <div class="col">
+            <img src="pictures/San Antonio to Columbus'.jpg" alt="" height="150cm" width="258cm" style="border-top-left-radius: 8px; border-top-right-radius: 8px; margin-top: 8px;">
+            <h5 style="background-color: white; color: rgb(0, 0, 59); text-align: center; margin: 1px 1px 0px 1px; margin-bottom: 0;"> San Antonio <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M17.4 7H4C3.4 7 3 7.4 3 8C3 8.6 3.4 9 4 9H17.4V7ZM6.60001 15H20C20.6 15 21 15.4 21 16C21 16.6 20.6 17 20 17H6.60001V15Z" fill="currentColor"></path>
+              <path opacity="0.3" d="M17.4 3V13L21.7 8.70001C22.1 8.30001 22.1 7.69999 21.7 7.29999L17.4 3ZM6.6 11V21L2.3 16.7C1.9 16.3 1.9 15.7 2.3 15.3L6.6 11Z" fill="currentColor"></path>
+            </svg> Columbus </h5>
+            <p style="text-align: center; background-color: white; margin-top: 0; color: grey; margin-bottom: 0;"> Round-trip | 3 Days</p>
+            <h6 style="color: rgb(0, 0, 59); background-color: white; margin-top: 0; text-align: center; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; padding-right:8px; padding-top: 3px; 
+            padding-bottom: 10px; text-align: center; border-bottom-left-radius: 8px; border-bottom-right-radius: 8px;"><strong> from US$492</strong></h6>
+
+          </div>
+          <div class="col">
+            <img src="pictures/Los Angeles to Canada.jpg" alt="" height="147cm" width="258cm" style="border-top-left-radius: 8px; border-top-right-radius: 8px; margin-top: 8px;"> 
+            <h4 style="background-color: white; color: rgb(0, 0, 59); text-align: center; margin: 1px 1px 0px 1px; margin-bottom: 0;"> Los Angeles <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M17.4 7H4C3.4 7 3 7.4 3 8C3 8.6 3.4 9 4 9H17.4V7ZM6.60001 15H20C20.6 15 21 15.4 21 16C21 16.6 20.6 17 20 17H6.60001V15Z" fill="currentColor"></path>
+              <path opacity="0.3" d="M17.4 3V13L21.7 8.70001C22.1 8.30001 22.1 7.69999 21.7 7.29999L17.4 3ZM6.6 11V21L2.3 16.7C1.9 16.3 1.9 15.7 2.3 15.3L6.6 11Z" fill="currentColor"></path>
+            </svg> Canada </h4>
+            <p style="text-align: center; background-color: white; margin-top: 0; color: grey; margin-bottom: 0;"> Round-trip | 3 Days</p>
+            <h6 style="color: rgb(0, 0, 59); background-color: white; margin-top: 0; text-align: center; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; padding-right:8px; 
+            padding-top: 3px; padding-bottom: 10px; text-align: center; border-bottom-left-radius: 8px; border-bottom-right-radius: 8px;"> <strong>from US$492</strong></h6>
+          </div>
+          <button type="button" class="btn btn-outline-danger" style="width: 5cm; margin-left: auto; margin-right: auto; margin-top: 20px;">Explore More </button>
+        </div>
+        <i class="fa-solid fa-arrow-trend-up ms-2"></i>
+      </div>
+  </div>
+
+  <div class="container text-center">
+    <div class="row align-items-start">
+      <div class="col-4">
+        <img src="pictures/img 1.png" alt="" height="500cm" width="400cm" style="margin-top: 30px;">
+      </div>
+      <div class="col">
+        <div class="container text-center">
+          <div class="row align-items-start">
+            <div class="col">
+              <img src="" alt="">
+            </div>
+            <div class="col-5" style="margin-top: 3cm; margin-left: 2cm;">
+              <h3> <strong> Get Superb Deals </strong> </h3>
+              <p>Just fill up a page with draft copy about the client's business and they will actually read it 
+                and comment on it. They will be drawn to it, fiercely. Do it the wrong way.</p>
+            </div>
+            <div class="col-5" style="margin-top: 3cm;">
+              <h3> <strong>Transparency Price</strong></h3>
+              <p>Just fill up a page with draft copy about the client's business and they will actually read it 
+                and comment on it. They will be drawn to it, fiercely. Do it the wrong way.</p>
+            </div>
+            <div class="col-5" style="margin-left: 3.5cm; margin-top: 1cm;">
+              <h3> <strong>Pure Trusted & Free</strong></h3>
+              <p>Just fill up a page with draft copy about the client's business and they will actually read it 
+                and comment on it. They will be drawn to it, fiercely. Do it the wrong way.</p>
+            </div>
+            <div class="col" style="margin-top: 0.5cm;">
+              <h3> <strong>Travel With Confidence</strong></h3>
+              <p>Just fill up a page with draft copy about the client's business and they will actually read it 
+                and comment on it. They will be drawn to it, fiercely. Do it the wrong way.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div>
+  <section class="bg-cover" style="background:url(assets/img/bg-3.jpg)no-repeat;" data-overlay="5">
+    <div class="ht-150"></div>
+    <div class="container">
+      <div class="row align-items-center justify-content-center">
+        <div class="col-xl-12 col-lg-12 col-md-12">
+
+          <div class="video-play-wrap text-center">
+            <div class="video-play-btn d-flex align-items-center justify-content-center">
+              <a href="https://www.youtube.com/watch?v=A8EI6JaFbv4" data-bs-toggle="modal" data-bs-target="#popup-video" class="square--90 circle bg-white fs-2 text-primary">
+                <i class="fa-solid fa-play"></i></a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <div class="ht-150"></div>
+  </section>
+</div>
+
+  <h2 style="margin-top: 2cm; color: rgb(0, 0, 59); text-align: center;">Trending & Popular Articles</h2>
+      <p style="text-align: center;">Cicero famously orated against his political opponent Lucius Sergius Catilina.</p>
+       
+      <div class="container" >
+        <div class="row align-items-start">
+          <div class="col" style="padding-top: 10px; padding-bottom: 7px; border-radius: 3px; padding-left: 2px; padding-right: 2px; margin-right: 10px;" >
+            <img src="pictures/0000 1.jpg" alt="" height="250cm" style="border-radius: 20px;" >
+            <h5 style="color: rgb(0, 0, 59); text-align: left; margin-left: 4px; margin-top: 30px;">Make Your Next Journey Delhi To <br>Paris in Comfirtable And Best Price</h5>
+            <p style="text-align: left; margin-left: 2px; ">Think of a news blog that's filled with content hourly on the Besides, random text risks to be unintendedly humorous or offensive day of <br>going live.</p>
+          </div>
+          <div class="col" style="padding-top: 10px; padding-bottom: 7px; border-radius: 3px; padding-left: 2px; padding-right: 2px; margin-right: 10px;">
+            <img src="pictures/0000 2.jpg" alt="" height="250cm" style="border-radius: 20px;">
+            <h5 style="color: rgb(0, 0, 59); text-align: left; margin-left: 4px; margin-top: 30px;">Make Your Next Journey Delhi To <br>Paris in Comfirtable And Best Price</h5>
+            <p style="text-align: left; margin-left: 2px; ">Think of a news blog that's filled with content hourly on the Besides, random text risks to be unintendedly humorous or offensive day of <br>going live.</p>
+          </div>
+          <div class="col" style="padding-top: 10px; padding-bottom: 7px; border-radius: 3px; padding-left: 2px; padding-right: 2px; margin-right: 10px;">
+            <img src="pictures/0000 3.jpg" alt="" height="250cm" style="border-radius: 20px;">
+            <h5 style="color: rgb(0, 0, 59); text-align: left; margin-left: 4px; margin-top: 30px;">Make Your Next Journey Delhi To <br>Paris in Comfirtable And Best Price</h5>
+            <p style="text-align: left; margin-left: 2px; ">Think of a news blog that's filled with content hourly on the Besides, random text risks to be unintendedly humorous or offensive day of <br>going live.</p>
+          </div>
+        </div>
+      </div>
+      <div style="background-color: red;">
+      <div class="container text-center" style="margin-top: 50px; margin-left: 40px; background-color: red;">
+        <div class="row align-items-start">
+          <div class="col-6">
+           <h4 style="color: white; margin-top: 25px; margin-bottom: 25px;"><strong> Join our Newsletter To Keep Up To <br>Date With Us!</strong></h4>
+          </div>
+            <div class="col-xl-3 col-lg-4 col-md-4" style="margin-top: 30px; margin-left: 40px;">
+              <form>
+                <div class="row align-items-center justify-content-between bg-white rounded-3 p-2 gx-0">
+                  <div class="col-xl-9 col-lg-8 col-md-8">
+                    <div class="form-group m-0" style="margin-top: 25px;">
+                      <input type="text" class="form-control bold ps-1 border-0" style="width: 7cm;" placeholder="Enter Your Mail!" >
+                    </div>
+                  </div>
+                  <div class="col-xl-3 col-lg-4 col-md-4">
+                    <div class="form-group m-0">
+                      <button type="button" class="btn btn-dark fw-medium full-width" style="margin-left: 70px"> Submit  <i class="fa-solid fa-arrow-trend-up ms-2"></i></button>
+                    </div>
+                  </div>
+                </div>
+              </form>
+          </div>
+        </div>
+      </div>
+</div>
+
+<footer class="footer skin-light-footer" style="color: black; margin-top: 30px;">
+  <div>
+    <div class="container">
+      <div class="row">
+
+        <div class="col-lg-3 col-md-4">
+          <div class="footer-widget">
+            <div class="d-flex align-items-start flex-column mb-3">
+              <div class="d-inline-block"><img src="pictures/travel agency logo.png" class="img-fluid" width="160" alt="Footer Logo">
+              </div>
+            </div>
+            <div class="footer-add pe-xl-3" style="margin-top: px;">
+              <p>We make your dream more beautiful enjoyful with lots of happiness.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-4">
+          <div class="footer-widget">
+            <h4 class="widget-title">The Navigation</h4>
+            <ul class="footer-menu">
+              <li><a href="JavaScript:Void(0);" style="color: black; text-decoration: none;">Talent Marketplace</a></li>
+              <li><a href="JavaScript:Void(0);" style="color: black; text-decoration: none;">Payroll Services</a></li>
+              <li><a href="JavaScript:Void(0);" style="color: black; text-decoration: none;">Direct Contracts</a></li>
+              <li><a href="JavaScript:Void(0);" style="color: black; text-decoration: none;">Hire Worldwide</a></li>
+              <li><a href="JavaScript:Void(0);" style="color: black; text-decoration: none;">Hire in the USA</a></li>
+              <li><a href="JavaScript:Void(0);" style="color: black; text-decoration: none;">How to Hire</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-4">
+          <div class="footer-widget">
+            <h4 class="widget-title">Our Resources</h4>
+            <ul class="footer-menu">
+              <li><a href="JavaScript:Void(0);" style="color: black; text-decoration: none;">Free Business tools</a></li>
+              <li><a href="JavaScript:Void(0);" style="color: black; text-decoration: none;">Affiliate Program</a></li>
+              <li><a href="JavaScript:Void(0);" style="color: black; text-decoration: none;">Success Stories</a></li>
+              <li><a href="JavaScript:Void(0);" style="color: black; text-decoration: none;">Upwork Reviews</a></li>
+              <li><a href="JavaScript:Void(0);" style="color: black; text-decoration: none;">Resources</a></li>
+              <li><a href="JavaScript:Void(0);" style="color: black; text-decoration: none;">Help &amp; Support</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-6">
+          <div class="footer-widget">
+            <h4 class="widget-title">The Company</h4>
+            <ul class="footer-menu">
+              <li><a href="JavaScript:Void(0);" style="color: black; text-decoration: none;">About Us</a></li>
+              <li><a href="JavaScript:Void(0);" style="color: black; text-decoration: none;">Leadership</a></li>
+              <li><a href="JavaScript:Void(0);" style="color: black; text-decoration: none;">Contact Us</a></li>
+              <li><a href="JavaScript:Void(0);" style="color: black; text-decoration: none;">Investor Relations</a></li>
+              <li><a href="JavaScript:Void(0);" style="color: black; text-decoration: none;">Trust, Safety &amp; Security</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+          <div class="footer-widget">
+            <h4 class="widget-title">Payment Methods</h4>
+            <div class="pmt-wrap">
+              <img src="pictures/pic1.png" class="img-fluid" alt="">
+            </div>
+            <div class="our-prtwrap mt-4">
+              <div class="prtn-title">
+                <p class="text-muted-2 fw-medium">Our Partners</p>
+              </div>
+              <div class="prtn-thumbs d-flex align-items-center justify-content-start">
+                <div class="pmt-wrap pe-4">
+                  <img src="pictures/pic7.png" class="img-fluid" alt="" style="color: black; text-decoration: none;">
+                </div>
+                <div class="pmt-wrap pe-4">
+                  <img src="pictures/pic8.png" class="img-fluid" alt="" style="color: black; text-decoration: none;">
+                </div>
+                <div class="pmt-wrap pe-4">
+                  <img src="pictures/pic9.png" class="img-fluid" alt="" style="color: black; text-decoration: none;">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bottom border-top" style="margin-bottom: 1cm;">
+    <div class="container">
+      <div class="row align-items-center justify-content-between">
+
+        <div class="col-xl-6 col-lg-6 col-md-6">
+          <p class="mb-0">© 2023 GeoTrip Design by Themezhub.</p>
+        </div>
+
+        <div class="col-xl-6 col-lg-6 col-md-6">
+          <ul class="p-0 d-flex justify-content-start justify-content-md-end text-start text-md-end m-0">
+            <li><a href="#" style="color: black; text-decoration: none;">Terms of services</a></li>
+            <li class="ms-3" ><a href="#" style="color: black; text-decoration: none;">Privacy Policies</a></li>
+            <li class="ms-3"><a href="#" style="color: black; text-decoration: none;">Cookies</a></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</footer>
+    </body>
+</htm
